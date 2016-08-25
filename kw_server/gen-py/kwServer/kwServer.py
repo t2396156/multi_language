@@ -126,7 +126,7 @@ class get_keyword_args:
   thrift_spec = (
     None, # 0
     (1, TType.STRING, 'text', None, None, ), # 1
-    (2, TType.BOOL, 'phrase', None, None, ), # 2
+    (2, TType.STRING, 'phrase', None, None, ), # 2
     (3, TType.I32, 'num', None, None, ), # 3
   )
 
@@ -150,8 +150,8 @@ class get_keyword_args:
         else:
           iprot.skip(ftype)
       elif fid == 2:
-        if ftype == TType.BOOL:
-          self.phrase = iprot.readBool()
+        if ftype == TType.STRING:
+          self.phrase = iprot.readString()
         else:
           iprot.skip(ftype)
       elif fid == 3:
@@ -174,8 +174,8 @@ class get_keyword_args:
       oprot.writeString(self.text)
       oprot.writeFieldEnd()
     if self.phrase is not None:
-      oprot.writeFieldBegin('phrase', TType.BOOL, 2)
-      oprot.writeBool(self.phrase)
+      oprot.writeFieldBegin('phrase', TType.STRING, 2)
+      oprot.writeString(self.phrase)
       oprot.writeFieldEnd()
     if self.num is not None:
       oprot.writeFieldBegin('num', TType.I32, 3)

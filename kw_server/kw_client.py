@@ -23,8 +23,8 @@ class KwClient():
         self.client = kwServer.Client(protocol)
         self.transport.open()
 
-    def get_keyword(self, text, phrase=True, nums=20):
-        json_res = self.client.get_keyword(text, phrase, nums)
+    def get_keyword(self, text, phrase='True', nums=20):
+        json_res = self.client.get_keyword(text, phrase, nums).replace('_', ' ')
         print json_res
         return json.loads(json_res)
 
@@ -37,6 +37,6 @@ if __name__=='__main__':
     phrase = sys.argv[2]
     nums = sys.argv[3]
     #print [text]
-    for word, v in wvc.get_keyword(text, 'False', int(nums)):
+    for word, v in wvc.get_keyword(text, phrase, int(nums)):
         print word.encode('utf-8'), v
 

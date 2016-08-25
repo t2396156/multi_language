@@ -113,7 +113,7 @@ class KwHandler:
             logging.error(e)
 
 
-    def get_keyword(self, text, phrase=True, nums=20):
+    def get_keyword(self, text, phrase='True', nums=20):
         '''
             parm:
                 text:待提取的文本
@@ -132,7 +132,7 @@ class KwHandler:
             self.get_sentence(text)
             for sent in self.sentences:
                 sents_splited.append(self.split_server.get_split_words(sent.encode('utf-8'), language))
-            if bool(phrase) == True: #短语合并
+            if phrase == 'True': #短语合并
                 sents_splited = self.phrase_detect(sents_splited)
                 if sents_splited == None:
                     return ''
