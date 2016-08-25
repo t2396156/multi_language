@@ -1,0 +1,24 @@
+Tue, 23 Aug 2016 08:34:04 split_server.py[line:35] INFO init spliter start:
+Tue, 23 Aug 2016 08:34:04 __init__.py[line:106] DEBUG Building prefix dict from /usr/local/lib/python2.7/site-packages/jieba/dict.txt ...
+Tue, 23 Aug 2016 08:34:04 __init__.py[line:125] DEBUG Loading model from cache /tmp/jieba.cache
+Tue, 23 Aug 2016 08:34:05 __init__.py[line:157] DEBUG Loading model cost 0.317 seconds.
+Tue, 23 Aug 2016 08:34:05 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+Tue, 23 Aug 2016 08:34:05 split_server.py[line:43] INFO init spliter success !
+Tue, 23 Aug 2016 09:25:29 split_server.py[line:35] INFO init spliter start:
+Tue, 23 Aug 2016 09:25:29 __init__.py[line:106] DEBUG Building prefix dict from /usr/local/lib/python2.7/site-packages/jieba/dict.txt ...
+Tue, 23 Aug 2016 09:25:29 __init__.py[line:125] DEBUG Loading model from cache /tmp/jieba.cache
+Tue, 23 Aug 2016 09:25:29 __init__.py[line:157] DEBUG Loading model cost 0.278 seconds.
+Tue, 23 Aug 2016 09:25:29 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+Tue, 23 Aug 2016 09:25:29 split_server.py[line:43] INFO init spliter success !
+Wed, 24 Aug 2016 07:18:31 split_server.py[line:35] INFO init spliter start:
+Wed, 24 Aug 2016 07:18:32 __init__.py[line:106] DEBUG Building prefix dict from /usr/local/lib/python2.7/site-packages/jieba/dict.txt ...
+Wed, 24 Aug 2016 07:18:32 __init__.py[line:125] DEBUG Loading model from cache /tmp/jieba.cache
+Wed, 24 Aug 2016 07:18:33 __init__.py[line:157] DEBUG Loading model cost 1.087 seconds.
+Wed, 24 Aug 2016 07:18:33 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+Wed, 24 Aug 2016 07:18:33 split_server.py[line:43] INFO init spliter success !
+Wed, 24 Aug 2016 07:19:12 split_server.py[line:35] INFO init spliter start:
+Wed, 24 Aug 2016 07:19:13 __init__.py[line:106] DEBUG Building prefix dict from /usr/local/lib/python2.7/site-packages/jieba/dict.txt ...
+Wed, 24 Aug 2016 07:19:13 __init__.py[line:125] DEBUG Loading model from cache /tmp/jieba.cache
+Wed, 24 Aug 2016 07:19:13 __init__.py[line:157] DEBUG Loading model cost 0.593 seconds.
+Wed, 24 Aug 2016 07:19:13 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+Wed, 24 Aug 2016 07:19:13 split_server.py[line:43] INFO init spliter success !
